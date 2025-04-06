@@ -1,2 +1,4 @@
-# classroom-design
-Recreación del diseño de Classroom
+# Diseño de Google Classroom
+
+Esta es una recreación imperfecta del diseño de Google Classroom. 
+
