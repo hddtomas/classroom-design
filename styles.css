@@ -38,15 +38,51 @@ nav{
     margin-right: 1em;
 }
 
-#pfp:hover{
-    filter: drop-shadow(0px 0px 5px rgba(180, 178, 178, 0.856))
+#apps{
+    margin-right: 0.5em;
+    margin-left: 0;
 }
 
 #plus{
-    margin-right: 0;
+    margin: auto;
     color: rgba(0, 0, 0, 0.87);
 }
 
+#plus-2{
+    margin-right: 0.5em;
+}
+
+#pfp{
+    margin-right: 1.25em;
+    margin-left: 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.circulo{
+    display: flex;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 32px;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1em;
+}
+
+.circulo img{
+    display: block;
+    margin: auto;
+}
+
+.circulo:hover{
+    background-color: rgba(32, 33, 36, 0.04);
+    cursor: pointer;
+}
 
 .material-symbols-outlined { /* menu */
     font-variation-settings:
@@ -74,6 +110,7 @@ nav{
     height: 28px;
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: 1em;
 }
 
 .logo p a{
@@ -84,9 +121,11 @@ nav{
     text-decoration: none;
 }
 
-.logo:hover p a{
-    color: rgb(30, 142, 62);
-    text-decoration: underline;
+.logo:hover{
+    p a{
+        color: rgb(30, 142, 62);
+        text-decoration: underline;
+    }
     cursor: pointer;
 }
 
@@ -117,6 +156,10 @@ nav{
     justify-content: center;
 }
 
+.container-tab *{
+    padding-left: 0.32em;
+}
+
 #seleccionado{
     background-color: rgb(232, 240, 254);
 }
@@ -124,4 +167,100 @@ nav{
 .container-tab:hover{
     background-color: rgba(32, 33, 36, 0.04);
     cursor: pointer;
+}
+
+.separacion-tab{
+    border-bottom: 1px solid rgb(224, 224, 224);
+    border-top: 1px solid rgb(224, 224, 224);;
+    margin-top: 0.5em;
+}
+
+.especial-container-tab{
+    display: flex;
+    height: 40px;
+    width: 64px;
+    border-bottom-right-radius: 32px;
+    border-top-right-radius: 32px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.especial-container-tab:hover{
+    background-color: rgba(32, 33, 36, 0.04);
+    cursor: pointer;
+}
+
+#flechader{
+    margin: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+#escuela{
+    margin: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+#salto{
+    margin-top: 0em;
+}
+
+.contenido-clases-bloque{
+    width: 300px;
+    height: 294px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(218, 220, 224);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-top: 1.5em;
+    margin-left: 1.45em;
+}
+
+.contenido-clases-bloque-1{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(88, 139, 235);
+}
+
+.contenido-clases-bloque-1-1{
+    width: 85%;
+}
+
+.contenido-clases-bloque-1-2{
+    display: flex;
+    width: 15%;
+    justify-content: center;
+}
+
+.contenido-clases-bloque-2{
+    width: 100%;
+    height: 137px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+#tres-puntos-c{
+    margin: 0;
+    margin-top: 0.5em;
+    margin-right: 0.7em;
+}
+
+#tres-puntos{
+    color: white;
+}
+
+.contenido-clases-bloque-3{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: right;
+}
+
+#folder{
+    display: flex;
+    margin: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 0.5em;
 }
