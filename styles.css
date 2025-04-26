@@ -253,6 +253,17 @@ nav{
     text-decoration: underline;
 }
 
+.bloque-links img{
+    position: absolute;
+    width: 75px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    top: 9.5em;
+    left: 19.3em;
+}
+
 #escuela2, #autor{
     font-size: 14px;
     font-weight: 400;
